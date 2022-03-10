@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form action = "#" method="POST" novalidated>
+        
+    <label for="uname">username </label>
+
+        <input type="text" id="uname" name="username" value="divya"
+        minlength="4"
+        maxlength="10"
+        required
+        readonly/>
+
+        <br />
+        
+        <input type="password" placeholder="enter new password"
+        name="PASSWORD"
+        value=""
+        required
+        pattern="divya@123"
+        disabled
+        />
+        
+
+        <br />
+        <!-- email-->
+        <i class="fas fa-address-card"></i>
+        <input type="email" name=" EMAIL" placeholder="enter email address"/>
+        
+        <br />
+        <!-- radio button to select anyone of the option-->
+        <input type="radio" name=" Gender"  value=" Male"/>Male
+        <input type="radio" name=" Gender"  value=" Female"/>Female
+        <br />
+
+        <!-- checkbox: is select more than one option-->
+        <input type="checkbox" name="technology stack" value="javaFs"/> javaFs
+        <input type="checkbox" name="technology stack" value="javascriptFs"/> javascriptFs
+        <input type="checkbox" name="technology stack" value="SQL"/> SQL
+
+        <!--button -->
+        <button>submit</button>
+        <input type="button" value="login"/>
+        <br />
+        <!-- button used for submission-->
+        <button type="submit"> Register</button>
+        
+        <input type="submit" value="Register" />
+    
+        <!--reset button-->
+        <input type="reset"/>
+        <br/>
+
+        <!-- dropdown-->
+        <label>select states</label>
+    <select>
+        <option value="karnataka">karnataka</option>
+        <option value="kerala">kerala</option>
+        <option value="tamilnadu">tamilnadu</option>
+        </select>
+        <br/>
+        <!-- to choose file /upload files-->
+        <input type="file"/>
+        <br />
+        <input type="date"/>
+        <input type="range"/>
+        <!-- textarea to write more than one line-->
+        <textarea row="14" cola="7" name="feedback"></textarea>
+        <input type="color"/>
+        <input type="number" max="100" min="1"/>
+        
+
+
+
+
+    </form>
+</body>
+</html>

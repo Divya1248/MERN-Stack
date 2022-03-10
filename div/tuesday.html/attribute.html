@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector</title>
+    <link rel="stylesheet" href="./attribute.css"/>
+</head>
+<body>
+    <!-- [attr]-->
+    <a href="https://facebook.com">facebook.com</a>
+    <a href="https://www.amazon.com" target="_blank">amazon.com</a>
+    <a href="https://www.adobe.com" target="_blank">adobe.com</a>
+    <br/>
+
+
+    <!--[attr=value]-->
+    <a href="https://facebook.com" target="_blank">facebook.com</a>
+    <a href="https://www.amazon.com" target="_blank">amazon.com</a>
+    <a href="https://www.adobe.com" target="_self">adobe.com</a>
+
+    <br/>
+    <!--[attr~=value]-->
+    <div title="user name">home</div>
+    <div  title="user contact">contact</div>
+    <div  title="about">about</div>
+    <div  title="user login">login</div>
+
+    <br />
+    <!--[atrr|=value]-->
+    <h1 class="top-text">hello world</h1>
+    <p class="top-content"> hii welcome to test</p>
+    <p class="topvalue">some text is written</p>
+
+    <br />
+    <!--[atrr^=value]-->
+    <h1 class="right-text">world</h1>
+    <p class="right-content"> test yantra</p>
+    <p class="rightvalue">some one is written</p>
+
+    <br />
+    <!--[atrr$=value]-->
+    <div class="first_test"> first div elemnt</div>
+    <div class="second_test">second div element</div>
+    <div class="third"> third element</div>
+    <p class="mytest">syntax</p>
+
+    <br />
+    <!--[attr*=value] occurance is nothing but appearence -->
+    <div class="first_test"> first  elemnt</div>
+    <div class="secondTest">second element</div>
+    <div class="third-test"> third element</div>
+    <p class="mytest">syntax attribute</p>
+    
+
+
+
+
+    
+
+
+ 
+
+
+</body>
+</html>

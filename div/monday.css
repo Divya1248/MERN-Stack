@@ -1,0 +1,54 @@
+/*universal selector
+*{
+    color:hotpink;
+    font-size: 25px;
+}*/
+/*element tag*/
+h2{
+    color:chocolate;
+}
+
+h1{
+    color:cyan
+}
+
+
+/*class selector*/
+.demo{
+    color:limegreen;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*id selector*/
+table,th,td{
+    border:2px solid bisque;
+    border-collapse: collapse;
+}
+
+/*by selecting individual rows with color and background color*/
+#test1{
+    background-color: chartreuse;
+}
+#test2{
+    color:purple;
+}
+
+
+/*pseudo class selector
+h6:hover{
+    color:red;
+}
+
+h3:link{
+    color:seagreen;
+}*/
+
+h6:link{
+    color: slategray;
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+*
+{
+    color:blueviolet; 
+    font-style: italic;
+}
+  
+div{
+    font-weight: 600;
+    color: chocolate;
+
+}
+
+.demo{
+    font-style: oblique;
+    background-color: aqua;
+}
+
+.sample{
+    color:brown;
+}
+
+#monkey{
+    color:cadetblue;
+}

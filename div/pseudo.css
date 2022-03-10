@@ -1,0 +1,35 @@
+/*link pseudo*/a:link{
+ color:springgreen;
+}
+/*visited*/
+a:visited{
+    color:violet;
+}
+/*active*/
+a:active{
+    color:yellow;
+}
+
+/*focus*/
+input:focus{
+    background-color: violet;
+}
+
+/*target*/
+a:target{
+    color:tomato;
+}
+/*font properties*/
+h1{
+    color: rgb(134, 232, 159);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-variant:initial;
+    font-weight: 400;
+    
+
+
+}
+/*font varient=mixed with both upper and lower case*/
+

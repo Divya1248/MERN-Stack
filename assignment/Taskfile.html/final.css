@@ -1,0 +1,94 @@
+.abc{
+    text-align: center;
+    color: cornsilk;
+}
+a{
+    word-spacing: 5px;
+    text-decoration: inherit;
+    color: white;
+}
+.demo{
+    text-align: center;
+    margin-left: 25%;
+    text-align: justify;
+    word-spacing: 2px;
+    border: black;
+    color: cornsilk;
+}
+#A{
+    border: black;
+}
+#a{
+    background-color: rgb(10, 210, 245);
+}
+.ab{
+ text-decoration: white;
+}
+h1{
+    color: cornsilk;
+}
+.k{
+    border: cornsilk;
+}
+h1{
+    text-align: center;
+}
+.ok{
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.okk{
+    margin-left: 8%;
+}
+.do{
+    margin: 3px;
+}
+
+.flexcontainer {
+    margin:5px;
+      background-color: aqua; 
+      display: flex;
+      justify-content:center;
+      flex-shrink: 100px;
+    }
+    
+    .childitem {
+      padding: 25px 0;
+      margin: 5px;
+      width:10px;
+      height:80px;
+      border:1px solid olive;
+      background-color: gold;
+      flex-shrink: 200px;
+      position:relative;
+      animation:animatebottom 5s;
+  }
+  @keyframes animatebottom{
+     from{bottom:-300px;opacity:0} 
+     to{bottom:0;opacity:1}
+  }
+  
+  
+      
+    
+  
+    .container {
+      margin:5px;
+      background-color: aqua; 
+      display: flex;
+      justify-content:center;
+      flex-shrink: 200px;
+    }
+     .skill{
+         background-color: aqua;
+         animation-direction:normal;
+         margin-left: 10%;
+         margin-right: 10%;
+  
+         
+     }
+  
+     .organ{
+       color:deeppink;
+     }

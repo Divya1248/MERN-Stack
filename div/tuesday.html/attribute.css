@@ -1,0 +1,41 @@
+/*[attr] = it checks attribute name*/
+a[target]
+{
+    color:red;
+    font-family: cursive;
+}
+
+/*[attr=value] = it checks for attribute name along with the specified value */
+a[target="_self"]
+{
+    background-color:sandybrown ;
+    color:seagreen;
+}
+
+/*[attr~=value]*/
+div[title~="user"] {
+    font-family: cursive;
+    color:purple;
+}
+
+/*[attr|=value]*/
+[class|="top"] {
+    background-color: royalblue;
+}
+
+/*[attr^=value]*/
+[class^="right"] {
+    text-shadow: 4px 2px brown;
+}
+
+/*[attr$=value]*/
+[class$=test]
+{
+    background-color: darkcyan;
+}
+
+/*[attr*=value]*/
+[class*="te"]
+{
+    font-family: cursive;
+}

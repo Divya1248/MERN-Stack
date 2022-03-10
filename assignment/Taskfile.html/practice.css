@@ -1,0 +1,361 @@
+.flexcontainer {
+  margin:5px;
+    background-color: aqua; 
+    display: flex;
+    justify-content:center;
+    flex-shrink: 100px;
+  }
+  
+  .childitem {
+    padding: 25px 0;
+    margin: 5px;
+    width:10px;
+    height:80px;
+    border:1px solid olive;
+    background-color: gold;
+    flex-shrink: 200px;
+    position:relative;
+    animation:animatebottom 10s;
+}
+@keyframes animatebottom{
+   from{bottom:-300px;opacity:0} 
+   to{bottom:0;opacity:1}
+}
+  .container {
+    margin:5px;
+    background-color: aqua; 
+    display: flex;
+    justify-content:center;
+    flex-shrink: 200px;
+  }
+   .skill{
+       background-color: aqua;
+       animation-direction:normal;
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+
+   .organ{
+     color:deeppink;
+   }
+   /*
+   h1{
+    color: cornsilk;
+}*/
+.k{
+    border: cornsilk;
+}
+/*
+h1{
+    text-align: center;
+}*/
+.ok{
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.okk{
+    margin-left: 8%;
+}
+.do{
+    margin: 3px;
+}
+
+.abc{
+  text-align: center;
+  color: cornsilk;
+}
+a{
+  word-spacing: 5px;
+  text-decoration: inherit;
+  color: white;
+}
+.demo{
+  text-align: center;
+  margin-left: 25%;
+  text-align: justify;
+  word-spacing: 2px;
+  border: black;
+  color: cornsilk;
+}
+#A{
+  border: black;
+}
+.a{
+  background-color: rgb(10, 210, 245);
+}
+.ab{
+text-decoration: white;
+}
+section{
+  background-color: cornsilk;
+}
+
+article{
+  background-color: whitesmoke;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+ background: #ece6e6;
+
+
+}
+
+.box{
+
+ width: 800px;
+ 
+ margin: 100px auto;
+ background: #fff;
+ border-radius: 7px;
+ box-shadow: 1px 2px 4px rgb(0,0,0,.3);
+
+
+}
+
+.box .heading{
+   background: #7800cf ;
+   border-radius: 7px 7px 0px 0px;
+   padding: 15px;
+   color: #fff ;
+   text-align: center ;
+   font-family: "rubik" ;
+
+}
+
+
+.faqs{
+
+
+padding: 0px 20px 20px;
+
+
+
+}
+
+
+::-webkit-details-marker{
+
+  float: right;
+   margin-top: 3px;
+ 
+
+
+}
+  details{
+
+    background: #f6f6f6;
+    padding: 10px 20px; 
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: "Rubika";
+    font-size: 14px;
+    letter-spacing: 0.6px;
+  }
+
+
+
+  details summary{
+
+     outline: rgb(117, 11, 223);
+  }
+
+  .card{
+    @keyframes animatebottom{
+      from{bottom:-300px;opacity:0} 
+      to{bottom:0;opacity:1}
+  }
+  
+  .flex {
+    margin:15px;
+      background-color: aqua; 
+      display: flex;
+      justify-content:center;
+      flex-shrink: 100px;
+    }
+    
+    .child {
+      padding: 25px 0;
+      margin: 15px;
+      width:10px;
+      height:80px;
+      border:1px solid olive;
+      background-color: gold;
+      flex-shrink: 200px;
+      position:relative;
+      animation:animatebottom 5s;
+  }
+  @keyframes animatebottom{
+     from{bottom:-300px;opacity:0} 
+     to{bottom:0;opacity:1}
+  }
+
+
+  
+  
+  /* Style inputs */
+  input[type=text], input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(245, 123, 123);
+    border-radius: 7px;
+   text-decoration: solid;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    resize: vertical;
+    background-color: rgb(240, 231, 193);
+  }
+  
+  input[type=submit] {
+    background-color: rgb(136, 126, 226);
+    color: white;
+    padding: 6px 10px;
+    border: rgb(179, 184, 197);
+    cursor: crosshair;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /* Style inputs */
+  input[type=text], input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(245, 123, 123);
+    border-radius: 7px;
+   text-decoration: solid;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    resize: vertical;
+    background-color: rgb(240, 231, 193);
+  }
+  
+  input[type=submit] {
+    background-color: rgb(136, 126, 226);
+    color: white;
+    padding: 6px 10px;
+    border: rgb(179, 184, 197);
+    cursor: crosshair;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 15px;
+    /* background-color: #d4d5ec; */
+    background-image: url('./1280px-World_map_blank_shorelines_semiwikimapia.svg.png');
+    padding: 5px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    padding: 40px;
+  }
+  div.column {
+    font-size: 22px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 15%;
+      margin-top: 10;
+    }
+  }
+
+
+   
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); 
+
+  body {
+   background: #ece6e6;
+  
+  
+  }
+  
+  .box{
+  
+   width: 800px;
+   
+   margin: 100px auto;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgb(0,0,0,.3);
+  
+  
+  }
+  
+  .box .heading{
+     background: #7800cf ;
+     border-radius: 7px 7px 0px 0px;
+     padding: 15px;
+     color: #fff ;
+     text-align: center ;
+     font-family: "rubik" ;
+  
+  }
+  
+  
+  .faqs{
+  
+  
+  padding: 0px 20px 20px;
+  
+  
+  
+  }
+  
+  
+  ::-webkit-details-marker{
+  
+    float: right;
+     margin-top: 3px;
+   
+  
+  
+  }
+    details{
+  
+      background: #f6f6f6;
+      padding: 10px 20px; 
+      border-radius: 7px;
+      margin-top: 20px;
+      font-family: "Rubika";
+      font-size: 14px;
+      letter-spacing: 0.6px;
+    }
+  
+  
+  
+    details summary{
+  
+       outline: rgb(117, 11, 223);
+    }
+  
+
+     .badri{
+        width: 40%;
+        padding-left: 10px;
+        margin-left: 10px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+      }

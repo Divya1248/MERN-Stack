@@ -1,0 +1,34 @@
+/* div{
+    background-image: linear-gradient(green,yellow,red);
+} */
+
+p{
+    background-image:radial-gradient(green,yellow,pink) ;
+}
+
+/*transition*/
+div{
+    background-color: aqua;
+    color: blueviolet;
+    width: 200px;
+    height: 100px;
+    transition: 3s;
+}
+
+div:hover{
+    width:500px;
+    height:300px;
+    color:coral;
+    background-color: darkblue;
+}
+
+.ma{
+    background-color: aqua;
+}
+
+.pa{
+    background-color:green;
+}
+span{
+    background-color: chocolate !important;
+}

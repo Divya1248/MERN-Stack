@@ -1,0 +1,21 @@
+/*descendent selector
+div h2{
+    background-color: darkorchid;
+}*/
+
+/*child */
+div>h2{
+    
+    color:darkred;*
+}
+
+/*adjacent*/
+
+div+p {
+    color:darkturquoise;
+}
+
+/*general sibling*/
+div~p {
+    background-color: deeppink;
+}

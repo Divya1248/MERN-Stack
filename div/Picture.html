@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture</title>
+</head>
+<body>
+    <picture>
+        <source media="(min-width-500px)" srcset="img_pic_jpg ">
+        <source media="(max-width-1000px)" srcset="img_pic_jpg">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.mGQq6ntnxnyaVIx7xLnwYQHaE8&pid=Api&P=0&w=258&h=173" alt="Nature" style="width.auto">
+    </picture>
+
+    Name: <input type="text" autofocus/> <br />
+    password: <input type="password" />
+    <br />
+    <!-- step attribute-->
+    <input type="number" min="0" max="50" step="2"/>
+
+    <!-- meter tag: to guage-->
+    <meter
+     min="0"
+     max="100"
+     low="40"
+     high="50"
+     optimum="100"
+     value="10"
+    ></meter>
+
+    <!--task completion-->
+   <progress></progress>
+    <progress value="75" max="100"></progress>
+
+    
+</body>
+</html>
